@@ -1,0 +1,75 @@
+.header{
+    background-image: url(../img/destaque.jpeg);
+    background-size: cover;
+    padding-top: 32px;
+}
+
+.header .lista-main{
+    text-align: center;
+
+}
+
+.header .item-lista{
+
+    display: inline-block;
+    margin: 0 2px 32px 0;
+}
+
+.header .item-lista a{
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+
+.header .item-lista a:hover{
+    background-color: #48a3a6;
+    transition: background-color 0.5s;
+}
+
+.header .jumbotron{
+
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 0 44px 0;
+    font-size: 32px;
+}
+
+.header .jumbotron .panel-main{
+    color: white;
+    text-shadow:4px 4px 10px black;
+    
+}
+
+.header .jumbotron .panel-main .title{
+    color: white;
+    font-size: 3em;
+    
+}
+
+.header .jumbotron .panel-subscribe{
+
+    margin-top: 28px;
+}
+
+.header .jumbotron .panel-main .subtitle{
+
+    color: #64FF64;
+    font-size: 2.6em;
+    margin-top: 8px;
+}
+
+@media(min-width:650px){
+
+    .header .jumbotron{
+
+        font-size: 28px;
+    }
+
+    .panel-about{
+        padding-top: 20px;        
+        align-items: justify;
+    }
+}
