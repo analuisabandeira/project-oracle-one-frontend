@@ -1,2 +1,2 @@
-# project-oracle-one-frontend
+# Project Frontend - Oracle One
  
